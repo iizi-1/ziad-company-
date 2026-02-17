@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ziad Company</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    direction: rtl;
+    background: #ffffff;
+    color: #111;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    border-bottom: 1px solid #eee;
+    position: sticky;
+    top: 0;
+    background: white;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #111;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.hero button {
+    padding: 15px 30px;
+    background: #111;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Sections */
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px 20px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #eee;
+    padding: 25px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* CTA */
+.cta {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+/* Contact */
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+}
+
+form button {
+    background: #111;
+    color: white;
+    border: none;
+    padding: 12px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #777;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div><strong>Ziad Company</strong></div>
+<div>
+<a href="#services">الخدمات</a>
+<a href="#contact">تواصل</a>
+</div>
+</nav>
+
+<div class="hero">
+<h1>حلول رقمية تبني المستقبل</h1>
+<p>نساعد الشركات على النمو باستخدام التكنولوجيا الحديثة</p>
+<button>ابدأ الآن</button>
+</div>
+
+<section id="services">
+<h2>خدماتنا</h2>
+<div class="services">
+<div class="card"><h3>تطوير مواقع</h3><p>تصميم سريع واحترافي.</p></div>
+<div class="card"><h3>أنظمة مخصصة</h3><p>حلول تناسب عملك.</p></div>
+<div class="card"><h3>استشارات</h3><p>نخطط لنجاحك.</p></div>
+</div>
+</section>
+
+<div class="cta">
+<h2>جاهز تبدأ مشروعك؟</h2>
+<p>تواصل معنا اليوم</p>
+</div>
+
+<section id="contact">
+<h2>تواصل معنا</h2>
+<form>
+<input type="text" placeholder="الاسم">
+<input type="email" placeholder="البريد">
+<textarea placeholder="رسالتك"></textarea>
+<button>إرسال</button>
+</form>
+</section>
+
+<footer>
+© 2026 Ziad Company
+</footer>
+
+</body>
+</html>
